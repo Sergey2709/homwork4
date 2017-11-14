@@ -1,0 +1,173 @@
+#bg {
+	width: 100%;
+	height: 100%
+	margin: 0;
+	padding: 0;
+
+}
+
+#center {
+	display: block;
+	position: absolute;
+	top: 40px;
+	left: 50%;
+	margin-left: -500px;
+	width: 1000px;
+	height: 410px;
+	background-color: white;
+}
+
+header {
+	display: block;
+	/*position: absolute;*/
+	position: relative;
+	top: 0px;
+	left: 50%;
+	margin-left: -500px;
+	width: 1000px;
+	height: 185px;
+	background-color: white;
+}
+
+.photo {
+	display: block;
+	position: absolute;
+	top: 183px;
+	left: 50%;
+	margin-left: -500px;
+	width: 100%;
+}
+
+.logo {
+	display: block;
+	position: absolute;
+	left: 20px;
+}
+
+.logo-t {
+	position: absolute;
+	top: 105px;
+	left: 100px;
+	font-style: Tahoma Regular;
+	font-size: 12px;
+	color: #71aec1;
+}
+
+.contacts {
+	display: block;
+	position: absolute;
+	top: 5px;
+	right: 30px;
+	width: 120px;
+	height: 70px;
+	font-style: Tahoma Regular;
+	font-size: 12px;
+	color: #5fa5bb;
+}
+
+.flags {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.flags li {
+	display: block;
+	float: left;
+	width: 70px;
+	font-size: 13px;
+}
+
+.flags li:last-child {
+	margin-right: 30px;
+}
+
+.flags li > * {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.flags:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+
+/*.flags li {
+	display: block;
+	float: left;
+	margin-left: 15px;
+}
+
+.flags {
+	position: absolute;
+	top: 105px;
+	right: 30px;
+	
+}
+
+ul li a {
+	position: absolute;
+	top: 50px;
+	font-style: Tahoma Regular;
+	font-size: 10px;
+	color: #5fa5bb;
+	margin-left: -35px;
+}
+*/
+.menu {
+	position: absolute;
+	top: 460px;
+	left: 50%;
+	margin-left: -500px;
+	width: 1000px;
+	height: 25px;
+	font-style: Tahoma Regular;
+	font-size: 14px;
+	color: white;
+	background-color: #323232;
+	width: 1000px;
+}
+
+
+
+/* выпадающее меню*/
+
+
+
+ul > li > ul {
+	display: none;
+}
+ul > li:hover > ul {
+	display: block;
+	background-color: #323232;
+}
+.menu > li {
+	float: left;
+	padding: 5px 40px;
+	position: relative;
+	display: block;
+}
+		
+.menu:after {
+	content: '';
+	display: block;
+	clear: both;
+	float: none;
+}
+.sub {
+	position: absolute;
+	left: 10;
+	top: 25px;
+	margin-left: -40px;
+	width: 150px;
+	height: 145px;
+}
+
+.sub > li {
+	display: block;
+	margin: 10px;
+}
+
